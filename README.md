@@ -1,4 +1,4 @@
-# Innovatio Votalis Ltd
+# Innovatio Vitalis Ltd
 
 Professional healthcare website starter built with plain PHP, MySQL, HTML and CSS.
 

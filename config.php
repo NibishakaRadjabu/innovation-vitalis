@@ -6,6 +6,6 @@ const DB_NAME = 'innovatio_votalis';
 const DB_USER = 'root';
 const DB_PASS = '';
 
-const SITE_NAME = 'Innovatio Votalis';
-const SITE_EMAIL = 'hello@innovatiovotalis.com';
+const SITE_NAME = 'Innovatio Vitalis';
+const SITE_EMAIL = 'hello@innovatiovitalis.com';
 const SITE_PHONE = '+250795422221';

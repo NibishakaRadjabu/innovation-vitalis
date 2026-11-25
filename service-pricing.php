@@ -156,7 +156,7 @@ $account = professional();
 <body class="dashboard-page">
     <?php require __DIR__ . '/matrix-loader.php'; ?>
     <header class="site-header"><div class="container nav-wrap">
-        <a class="brand" href="index.php"><span class="brand-mark">IV</span><span><strong>Innovatio</strong><small>Votalis Ltd</small></span></a>
+        <a class="brand" href="index.php"><span class="brand-mark">IV</span><span><strong>Innovatio</strong><small>Vitalis Ltd</small></span></a>
         <div class="dashboard-user"><span><?= htmlspecialchars((string) ($account['name'] ?? $account['email'] ?? 'Staff')) ?></span><a class="button button-small" href="account-settings.php">Account settings</a><a class="button button-small" href="logout.php">Sign out</a></div>
     </div></header>
     <main class="dashboard-main container pricing-page">

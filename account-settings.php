@@ -115,7 +115,7 @@ $email = $patient['email'] ?? $staff['email'] ?? '';
 <body class="auth-page">
     <?php require __DIR__ . '/matrix-loader.php'; ?>
     <main class="auth-shell">
-        <a class="brand" href="index.php"><span class="brand-mark">IV</span><span><strong>Innovatio</strong><small>Votalis Ltd</small></span></a>
+        <a class="brand" href="index.php"><span class="brand-mark">IV</span><span><strong>Innovatio</strong><small>Vitalis Ltd</small></span></a>
         <section class="auth-panel">
             <p class="eyebrow">Account settings</p>
             <h1>Manage your<br><em>account.</em></h1>

@@ -1,4 +1,4 @@
--- Recovery script for Innovatio Votalis database
+-- Recovery script for Innovatio Vitalis database
 -- This script rebuilds corrupted tables by dropping and recreating them
 
 USE innovatio_votalis;

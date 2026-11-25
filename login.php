@@ -110,7 +110,7 @@ $identity = (string) ($_GET['identity'] ?? '');
 <body class="auth-page">
     <?php require __DIR__ . '/matrix-loader.php'; ?>
     <main class="auth-shell">
-        <a class="brand" href="index.php" aria-label="Innovatio Votalis home"><span class="brand-mark">IV</span><span><strong>Innovatio</strong><small>Votalis Ltd</small></span></a>
+        <a class="brand" href="index.php" aria-label="Innovatio Vitalis home"><span class="brand-mark">IV</span><span><strong>Innovatio</strong><small>Vitalis Ltd</small></span></a>
         <div class="t-tilt" data-auth-panel>
         <section class="auth-panel t-tilt-card">
             <p class="eyebrow">Secure access</p>
@@ -137,7 +137,7 @@ $identity = (string) ($_GET['identity'] ?? '');
             <span class="t-tilt-glare" aria-hidden="true"></span>
         </section>
         </div>
-        <p class="auth-footnote">Protected access · Innovatio Votalis Ltd</p>
+        <p class="auth-footnote">Protected access · Innovatio Vitalis Ltd</p>
     </main>
     <script src="assets/js/matrix-loader.js" defer></script>
     <script src="assets/js/auth-tilt.js" defer></script>

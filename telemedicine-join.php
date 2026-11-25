@@ -18,7 +18,7 @@ http_response_code($validLink ? 200 : 400);
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="referrer" content="no-referrer"><title>Join video consultation | <?= htmlspecialchars(SITE_NAME) ?></title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/css/styles.css"></head>
 <body class="dashboard-page">
-<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.php"><span class="brand-mark">IV</span><span><strong>Innovatio</strong><small>Votalis Ltd</small></span></a><span class="role-badge">Private consultation</span></div></header>
+<header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.php"><span class="brand-mark">IV</span><span><strong>Innovatio</strong><small>Vitalis Ltd</small></span></a><span class="role-badge">Private consultation</span></div></header>
 <main class="dashboard-main container" data-call-ui="patient" data-room="<?= htmlspecialchars($validLink ? $room : '', ENT_QUOTES, 'UTF-8') ?>">
     <div class="dashboard-heading"><div><p class="eyebrow">Telemedicine</p><h1>Video <em>consultation.</em></h1><p data-patient-call-status><?= $validLink ? 'Join the call when you are ready.' : 'This invite link is invalid. Ask your care team for a new link.' ?></p></div><span class="role-badge">Encrypted peer to peer media</span></div>
     <?php if ($validLink): ?>

@@ -1,4 +1,4 @@
--- Innovatio Votalis Ltd: fresh database setup
+-- Innovatio Vitalis Ltd: fresh database setup
 -- Run this file once in phpMyAdmin or the MySQL command line.
 -- This creates the database, core tables, and initial service catalogue.
 
